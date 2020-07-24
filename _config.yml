@@ -14,9 +14,12 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
+# url       地址'https://baicai.js.org'
+# baseurl    路径 '/baicaijsorg'
+# permalink: 文章连接路径
 url: 'https://baicai.js.org'
 baseurl: '/baicaijsorg'
-permalink: pretty
+permalink: posts/:categories/:title.html
 
 # Pagination
 paginate: 8
