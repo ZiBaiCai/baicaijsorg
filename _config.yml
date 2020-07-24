@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: BaiCai Js Org
 subtitle:
 description:
-author: John Doe
+author: ZiBaiCai
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -19,16 +19,16 @@ baseurl: '/baicaijsorg'
 permalink: pretty
 
 # Pagination
-paginate: 10
+paginate: 8
 #paginate_path: "/page:num/"
 #archive:
-  #paginate: 10
+  #paginate: 8
   #paginate_path: "/page:num/"
 #category:
-  #paginate: 10
+  #paginate: 8
   #paginate_path: "/page:num/"
 #tag:
-  #paginate: 10
+  #paginate: 8
   #paginate_path: "/page:num/"
 
 # Handling Reading
@@ -118,11 +118,11 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  categories: /categories/
+  about: /about/
   archives: /archives/
   tags: /tags/
-  #sitemap: /sitemap.xml
+  sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
@@ -148,12 +148,17 @@ menu_icons:
 
 # ---------------------------------------------------------------
 # Scheme Settings
+# 三款主题设置，默认，单页，双页
+# Muse - 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白
+# Mist - Muse 的紧凑版本，整洁有序的单栏外观
+# Pisces - 双栏 Scheme，小家碧玉似的清新
+
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
