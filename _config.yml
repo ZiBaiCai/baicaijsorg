@@ -19,7 +19,7 @@ date_format: '%Y-%m-%d'
 # permalink: 文章连接路径
 url: 'https://baicai.js.org'
 baseurl: '/baicaijsorg'
-permalink: posts/:categories/:year/:month/:day/:title.html
+permalink: posts/:year/:month/:day/:title.html
 
 # Pagination
 paginate: 8
