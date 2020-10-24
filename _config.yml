@@ -446,7 +446,7 @@ gitalk:
   enable: true  # false(开/关)
   clientID: 5576594833e701b18cb9
   clientSecret: 8cf638debc9564c31669fbbe6880214d3239de33
-  repo: baicaijsorg
+  repo: bcjs-gitalk
   owner: zibaicai
   admin: zibaicai
 
