@@ -446,7 +446,7 @@ gitalk:
   enable: true  # false(开/关)
   clientID: 5576594833e701b18cb9
   clientSecret: 8cf638debc9564c31669fbbe6880214d3239de33
-  repo: zibaicai.com/baicaijsorg
+  repo: baicaijsorg
   owner: zibaicai
   admin: zibaicai
 
@@ -657,7 +657,7 @@ canvas_ribbon: false
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
 # For example
-#    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
+#    jquery: https://ajax.loli.net/ajax/libs/jquery/2.2.0/jquery.min.js
 # Be aware that you should use the same version as internal ones to avoid potential problems.
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
