@@ -11,7 +11,7 @@ author: ZiBaiCai
 email: HelloWorld@email.cn
 
 # Build settings
-permalink: /:year/:month/:day/:title/
+permalink: /post/:title.html
 exclude: ["README.md", "changelog.md", "server", "tools", "Pipfile"]
 plugins:
   - jekyll-paginate
