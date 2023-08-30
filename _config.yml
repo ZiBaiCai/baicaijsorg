@@ -1,14 +1,14 @@
 # Site settings
-title: oukohou
-subtitle: [ 璇珠杂俎]
-keywords: oukohou
-description: 我梦扬州，便想到扬州梦我。幸会。微信公众号：oukohou.
+title: 白菜
+subtitle: [ 紫白菜]
+keywords: ZiBaiCai
+description: 人到中年,没有社交,没有酒局,不想多说一句话，下班第一时间回家，总想远离人群！
 url: "https://baicai.js.org" # 你的域名
 baseurl: "" # the subpath of your site, e.g. /blog
 page_no_title: "oukohou's blog" # 文章无标题时默认显示内容
 beian: # "备案号"
-author: oukohou
-email: oukohou@outlook.com
+author: ZiBaiCai
+email: HelloWorld@email.cn
 
 # Build settings
 permalink: /:year/:month/:day/:title/
@@ -58,31 +58,29 @@ menu:
 # Link settings
 links: # 友情链接
 
-  - title: ccslience's blog
-    url: http://ccslience.oukohou.wang/
-  - title: oukohou's github
-    url: https://github.com/oukohou
-#  - title:
-#    url: http://jekyllcn.com/
-  - title: Jekyll blog system
-    url: http://jekyllcn.com/
+  - title: 颜色转换工具
+    url: https://zh.spycolor.com/
+  - title: 前端 CDNJS、Fonts、Ajax、 Gravatar 国内加速服务
+    url: https://u.sb/css-cdn/
+  - title: Favicon
+    url: https://favicon.io/
 
 
 # Google Analytics
-ga_track_id: 'UA-130856615-1'            # Format: UA-xxxxxx-xx
-ga_domain: www.oukohou.wang              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-1308'            # Format: UA-xxxx
+ga_domain: www              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 # Code hub settings
 codehub: # 代码仓库
   - title: Github
-    url: https://github.com/oukohou
+    url: https://github.com
 
 
 valine:
   enable: true
-  app_id:  K1rbn2Oo0YMM04VuzdLS7Nzz-gzGzoHsz
-  app_key: AAsHbwVm8ofKFJ6ghGqqrXSU
+  app_id:  K1rbn2Oo0YMM04VuzdLS7Nzz
+  app_key: AAsHbwVm8ofKFJ6ghGqqU
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   visitor: true
