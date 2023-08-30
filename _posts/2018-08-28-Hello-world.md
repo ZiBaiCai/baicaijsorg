@@ -7,7 +7,7 @@ categories: [日志]
 ---
 Hello there!
 
-This is my first blog on my blog [site](http://www.oukohou.wang/).
+This is my first blog on my blog 
 
 That's all.
 
@@ -20,6 +20,6 @@ def print_hi(name):
 print_hi("I'm oukohou")
 {% endhighlight %}
 
-regards.
-<h4 align = "right">oukohou.</h4>
+Regards.
+<h4 left = "right">白菜.</h4>
 
