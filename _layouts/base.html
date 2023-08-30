@@ -200,18 +200,17 @@ var _hmt = _hmt || [];
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
  var options = {
-        bottom: "118px",                 // default: '32px'
-        right: "32px",                  // default: '32px'
-        left: "unset",                  // default: 'unset'
-        time: "0.5s",                   // default: '0.3s'
-        mixColor: "#fff",               // default: '#fff'
-        backgroundColor: "#fff",        // default: '#fff'
-        buttonColorDark: "#262728",     // default: '#100f2c'
-        buttonColorLight: "#fff",       // default: '#fff'
-        saveInCookies: true,            // default: true,
-        label: "🌓",                    // default: ''
-        autoMatchOsTheme: true,         // default: true
-    };
+        bottom: "118px",                 // default: '32px'  底部
+        right: "32px",                  // default: '32px' 右
+        left: "unset",                  // default: 'unset' 左
+        time: "0.5s",                   // default: '0.3s' 过渡时间
+        mixColor: "#fff",               // default: '#fff' 混合层背景色
+        backgroundColor: "#true",        // default: '#fff' 创建的背景层背景色
+        buttonColorDark: "#262728",     // default: '#100f2c' 亮色状态下的按钮颜色
+        buttonColorLight: "#fff",       // default: '#fff' 暗色状态下的按钮色
+        saveInCookies: true,            // default: true, 是否存在cookie 默认 local storage
+        label: "🌓",                    // default: '' 按钮中的内容
+        autoMatchOsTheme: true,         // default: true 跟随系统设置
     let darkmode = new Darkmode(options);
     darkmode.showWidget();
  
