@@ -4,11 +4,23 @@
  * @author cho
  * @version 2.0
  * @link http://chopstack.com
+ * background-color: #F2F2F2; 背景颜色
+ * color: #444;  默认
+
+ * background-color: #f8efe8; //米黄色背景
+ * color: #515151; //深灰色文字
+ * background-color: #e8f6f3; //淡蓝色背景
+ * color: #333; //黑色文字
+ * background-color: #fffbf0; //浅黄色背景
+ * color: #333; //黑色文字
+ * background-color: #f1f1f1; //浅灰色背景
+ * color: #222; //深色文字
  */
 
+
 body {
-    background-color: #F2F2F2;
-    color: #444;
+    background-color: #e8f6f3;
+    color: #333;
     font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1039,10 +1051,10 @@ figure {
 /* icomoon icon fonts*/
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?jhbhm');
+    src: url('/ZiBaiCai/baicaijsorg/edit/master/assets/fonts/icomoon.eot?jhbhm');
     src: url('../fonts/icomoon.eot?jhbhm#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?jhbhm') format('truetype'),
-    url('../fonts/icomoon.woff?jhbhm') format('woff'),
+    url('/ZiBaiCai/baicaijsorg/edit/master/assets/fonts/icomoon.ttf?jhbhm') format('truetype'),
+    url('/ZiBaiCai/baicaijsorg/edit/master/assets/fonts/icomoon.woff?jhbhm') format('woff'),
     url('../fonts/icomoon.svg?jhbhm#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
