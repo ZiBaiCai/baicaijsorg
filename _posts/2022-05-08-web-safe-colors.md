@@ -2,7 +2,7 @@
 layout: post
 title:  "网页安全色"
 tags:   web-safe-colors
-date:   2020-06-18
+date:   2022-06-18
 categories: color
 ---
 
