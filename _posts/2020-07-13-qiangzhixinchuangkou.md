@@ -12,9 +12,9 @@ categories: html
 <base target="_blank">
 ```
 
->> 将此上/下（二选一）代码放到网页中的 <head>标签之内即可实现,
+> 将此上/下（二选一）代码放到网页中的 <head>标签之内即可实现,
 
->> 当前页面所有链接新窗口打开  
+> 当前页面所有链接新窗口打开  
 
 ```html
 <base target="_self">
