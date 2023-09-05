@@ -6,7 +6,7 @@ permalink: /about/
 
 ### About
 
-> Email: HelloWorld@email.cn
+> Email: ContactMe@Email.Cn
 
 > WeChat; QingHongJiao 
    
